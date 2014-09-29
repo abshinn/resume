@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# Shell script which typesets shinn_resume.tex and copy the result to the
+# local directory of abshinn.github.io (blog).
 
 echo "Typesetting shinn_resume.tex..."
 sleep 1;
