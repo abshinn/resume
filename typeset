@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "Typesetting shinn_resume.tex..."
+sleep 1;
+
+pdflatex shinn_resume.tex ;
+
+echo
+echo "Copy to abshinn.github.io local directory..."
+sleep 1;
+
+cp shinn_resume.pdf ~/abshinn.github.io/shinn_resume.pdf
+cp shinn_resume.pdf ~/abshinn.github.io/resume.pdf
